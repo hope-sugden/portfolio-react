@@ -1,0 +1,74 @@
+@use "../../assets/sass/variables" as *;
+
+
+.about {
+    
+    &__img {
+        width: 56.65px;
+        height: 62px;
+       
+    }
+    &__section {
+        display: flex;
+        flex-direction: column;
+    }
+    &__paragraph {
+        width: 45%;
+    }
+    &__line1 {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        
+        
+    }
+    
+    &__line2 {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        
+        
+    }
+    
+    &__line3 {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    
+    &__line4 {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        
+    }
+    
+    &__line5 {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about__paragraph {
+        width: 70%;
+    }
+    .about__line1 {
+        justify-content: center;
+    }
+    .about__line2 {
+        justify-content: center;
+    }
+    .about__line3 {
+        justify-content: center;
+    }
+    .about__line4 {
+        justify-content: center;
+    }
+    .about__line5 {
+        justify-content: center;
+    }
+}

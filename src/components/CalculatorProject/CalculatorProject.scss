@@ -1,0 +1,94 @@
+@use "../../assets/sass/variables" as *;
+
+.calculatorProject {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    &__img {
+        max-height: 600px;
+        max-width: 50%;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 20px;
+    }
+    &__stack {
+        ul {
+        list-style-type: none;
+    }}
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__website {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        
+        text-decoration: none;
+    }
+    &__code {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        color : $color-white;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .calculatorProject__buttons {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .calculatorProject {
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculatorProject__img {
+            width: 100%;
+            margin: 0 5px;
+            margin-bottom: 20px;
+        }
+    .calculatorProject__text {
+            width: 100%;
+            margin: 0 5px;
+            
+    }
+    .calculatorProject__buttons {
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .calculatorProject__website {
+        width: 140px;
+        font-size: small;
+    }
+    .calculatorProject__code {
+        width: 140px;
+        font-size: small;
+        }
+    }

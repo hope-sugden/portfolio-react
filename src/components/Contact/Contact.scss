@@ -1,0 +1,29 @@
+@use "../../assets/sass/variables" as *;
+
+.contact {
+    &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    &__email {
+        width: 35px;
+    }
+    &__linkedin {
+        width: 35px;
+        margin: 10px;
+    }
+    &__github {
+        width: 35px;
+        margin: 10px;
+    }
+    &__cv {
+        width: 35px;
+        margin: 10px;
+    }
+    &__links {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+

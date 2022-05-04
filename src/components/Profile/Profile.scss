@@ -1,0 +1,47 @@
+@use "../../assets/sass/variables" as *;
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+        width: 20%;
+        margin: 50px;
+        border-radius: 50%;
+        min-width: 200px;
+    }
+
+    &__text {
+        margin: 50px;
+        line-height: 50px;
+        text-align: center;
+
+        h1 {
+            font-family: $font-display;
+            font-size: 100px;
+        }
+        p {
+            color: $color-primary;
+            font-size: medium;
+       
+        }
+    }
+    &__links {
+        img {
+            width: 20%;
+            height: 100%;
+            text-decoration: none;
+            color: $color-primary;
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .profile {
+        flex-direction: column;
+        &__img {
+            width: 96.797px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700;800;900&display=swap');
+
+
+$font-body: 'Source Code Pro', monospace;
+$font-display: 'Commissioner', sans-serif;
+
+$color-primary: #D65A2E;
+$color-black: #191819;
+$color-white:#FFFFFF;
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-white;
+}
+body {
+    background-color: $color-black;
+}
+
+$mobile-screen: 320px;
+$scren-width:90%;

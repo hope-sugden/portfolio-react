@@ -1,0 +1,82 @@
+@use "../../assets/sass/variables" as * ;
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    &__img {
+        width: 50%;
+    }
+    &__text {
+        width: 50%;
+        margin: 0 5px;
+    }
+
+    &__nology {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 40%;
+        h3 {
+            font-weight: 900;
+        }
+        h4 {
+            font-weight: 600;
+            font-style: italic;
+        }
+    }
+    &__stack {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            font-weight: bolder;
+        }
+        ul {
+        list-style-type: none;
+        }
+        li {
+            margin: 5px;
+        }
+    }
+    &__button {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 40px;
+        text-decoration: none;
+        }
+    a:hover {
+        color : $color-white;
+    }
+        
+}
+.experience__title {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:710px) {
+    .experience {
+        flex-direction: column;
+    }
+    .experience__img {
+            width: 100%;
+            margin: 0 5px;
+        }
+    .experience__text {
+            width: 100%;
+            margin: 0 5px;
+    }
+    .experience__button {
+        margin-bottom: 20px;
+    }
+}
