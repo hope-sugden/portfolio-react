@@ -25,7 +25,7 @@ const CalculatorProject = () => {
                     </div>
                 </div>
 
-                <img src={calculator} alt="photo of calculator" className="calculatorProject__img"/>
+                <img src={calculator} alt="calculator" className="calculatorProject__img"/>
             </div>
   )
 }

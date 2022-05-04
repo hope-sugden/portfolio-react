@@ -4,6 +4,7 @@ import orangeEmail from "../../assets/images/email-orange.png";
 import orangeGithub from "../../assets/images/github-orange.png";
 import orangeLinkedIn from "../../assets/images/Linkedin-orange.png";
 import orangeCV from "../../assets/images/cv-orange.png";
+import pdf from "../../data/Hope Sugden CV - 2021.pdf"
 
 const Contact = () => {
   return (
@@ -16,7 +17,7 @@ const Contact = () => {
             <div className="contact__links">
             <a href="https://github.com/hope-sugden" ><img src={orangeGithub} alt="Github logo" className="contact__github"/></a>
             <a href="https://www.linkedin.com/in/hope-sugden-412829109"><img src={orangeLinkedIn} alt="Linkedin logo" className="contact__linkedin"/></a>
-            <a href="#"><img src={orangeCV} alt="CV logo" className="contact__cv"/></a>
+            <a href={pdf} ><img src={orangeCV} alt="CV logo" className="contact__cv"/></a>
             </div>
         </div>
     </section>

@@ -8,7 +8,7 @@ import emailWhite from "../../assets/images/email-white.png";
 export const Profile = () => {
   return (
     <section className="profile">
-    <img src={profilePhoto} alt="Image of Hope smiling" className="profile__img"/>
+    <img src={profilePhoto} alt="Hope smiling" className="profile__img"/>
     <div className="profile__text">
         <h2>Hope Sugden</h2>
         <p>Birmingham, UK</p>
