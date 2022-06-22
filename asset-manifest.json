@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.6b95d704.css",
-    "main.js": "/portfolio-react/static/js/main.ab31c919.js",
+    "main.js": "/portfolio-react/static/js/main.c3acb3d3.js",
     "static/media/brewdog.png": "/portfolio-react/static/media/brewdog.a9c2fc1ecfcd76d5b69d.png",
     "static/media/plane-view-max.png": "/portfolio-react/static/media/plane-view-max.24f77e6c2ca29fbd94f0.png",
     "static/media/plane-view-laptopL.png": "/portfolio-react/static/media/plane-view-laptopL.a0a3fd6cd06755e5b001.png",
     "static/media/learning.png": "/portfolio-react/static/media/learning.f68ab8c2e219b5fc6d39.png",
     "static/media/quiz.png": "/portfolio-react/static/media/quiz.f29a8dede0aa5561fa94.png",
     "static/media/plane-view-laptop.png": "/portfolio-react/static/media/plane-view-laptop.be31e95ea8435c48f4a7.png",
+    "static/media/fullstack.png": "/portfolio-react/static/media/fullstack.c8189883ccb8ed2b125d.png",
     "static/media/plane-view-tablet.png": "/portfolio-react/static/media/plane-view-tablet.07fa71e0acc00d688fa1.png",
     "static/media/Hope Sugden CV - 2021.pdf": "/portfolio-react/static/media/Hope Sugden CV - 2021.04543386bf9645ef9728.pdf",
     "static/media/morseCode.png": "/portfolio-react/static/media/morseCode.05a21b24728763fecbb5.png",
@@ -21,10 +22,10 @@
     "static/media/arrow_forward.svg": "/portfolio-react/static/media/arrow_forward.5051f98a06f42741123c7bdf358f4f1e.svg",
     "static/media/arrow_back.svg": "/portfolio-react/static/media/arrow_back.dee967831b0800bf5c2436e6d47f3fa7.svg",
     "main.6b95d704.css.map": "/portfolio-react/static/css/main.6b95d704.css.map",
-    "main.ab31c919.js.map": "/portfolio-react/static/js/main.ab31c919.js.map"
+    "main.c3acb3d3.js.map": "/portfolio-react/static/js/main.c3acb3d3.js.map"
   },
   "entrypoints": [
     "static/css/main.6b95d704.css",
-    "static/js/main.ab31c919.js"
+    "static/js/main.c3acb3d3.js"
   ]
 }
